@@ -1,4 +1,4 @@
-class Post
+class Tweet
   def initialize(information_hash)
     @information_hash = information_hash
     # non_shared_events_idx is array that keeps the index of the elements of the index that was not shared yet

@@ -10,10 +10,9 @@ bot = TwitterBot.new
 loop do
   time = Time.new
   events_string_daily = JsonData.new("events",time.day, time.month)
-  daily_tweet = Post.new(events_string_daily.json_hash)
-  # bot.client.update("On this same day in the year of #{data_string_daily.json_hash["events"][3]["year"]} it happened: #{data_string_daily.json_hash["events"][3]["description"]}")
-  content = false
-  until content != false && content.length < 280
+  daily_tweet = Tweet.new(events_string_daily.json_hash)
+  content = (1..290).to_a
+  until content.length < 280
     content = daily_tweet.tweet_content
   end
   # bot.client.update(content)
