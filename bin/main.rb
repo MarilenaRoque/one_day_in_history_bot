@@ -17,7 +17,7 @@ while true
       content = daily_tweet.tweet_content
     end
     bot.tweet(content)
-    sleep(60*60*2)
+    sleep(60*2)
   end
 
 end
