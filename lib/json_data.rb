@@ -2,8 +2,8 @@ require 'http'
 require 'json/pure'
 
 class JsonData
-  def initialize(day,month)
-    url = "https://byabbe.se/on-this-day/#{month}/#{day}/events.json"
+  def initialize(subject,day, month)
+    url = "https://byabbe.se/on-this-day/#{month}/#{day}/#{subject}.json"
     json_string = HTTP.get(url).body.to_s
     @json_hash = JSON.parse(json_string)
   end
