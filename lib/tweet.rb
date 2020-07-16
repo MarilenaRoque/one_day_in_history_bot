@@ -10,7 +10,10 @@ class Tweet
     content = 'On this same day in the year of '
     content += "#{@information_hash['events'][event_index]['year']} it happened:"
     content += " #{@information_hash['events'][event_index]['description']}"
+    content
   end
+
+  private
 
   def choose_event_idx
     # Generate a random index
@@ -21,4 +24,5 @@ class Tweet
     @non_shared_events_idx.delete_at(idx_of_non_shares)
     index
   end
+
 end
