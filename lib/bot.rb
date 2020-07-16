@@ -2,6 +2,7 @@ require 'twitter'
 require 'dotenv'
 Dotenv.load('./.env')
 
+# bot_authentication
 class TwitterBot
   def initialize
     @client = Twitter::REST::Client.new do |config|

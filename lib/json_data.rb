@@ -1,8 +1,10 @@
+
 require 'http'
 require 'json/pure'
 
+# Grab_API_information
 class JsonData
-  def initialize(subject,day, month)
+  def initialize(subject, day, month)
     url = "https://byabbe.se/on-this-day/#{month}/#{day}/#{subject}.json"
     json_string = HTTP.get(url).body.to_s
     @json_hash = JSON.parse(json_string)
