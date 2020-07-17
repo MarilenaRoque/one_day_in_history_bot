@@ -16,7 +16,4 @@ loop do
     bot.tweet(content)
     sleep(60 * 2 * 60)
   end
-   
-
 end
-
