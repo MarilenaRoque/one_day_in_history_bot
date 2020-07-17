@@ -21,6 +21,26 @@ To have a version on you local machine:
 
 - Execute bin/main.rb on the project folder within your terminal
 
+## Running Tests
+
+     This branch contains contains a folder named "spec" with files to test the public methods of the classes. To run it you can follow the steps bellow
+
+     - Run the following command on your local machine:
+
+        > gem install rspec
+
+      - After successfully installed the Gem you can access the spec folder and run the following command to check the results.
+
+        > rspec spec/bot_test.rb
+      To test the board class methods.
+
+        > rspec spec/json_data_test.rb
+      To test the json_data class methods.
+
+        > rspec spec/tweet_test.rb
+      To test the tweet class methods.
+
+
 
 ## Author
 
