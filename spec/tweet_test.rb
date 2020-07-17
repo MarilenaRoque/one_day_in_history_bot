@@ -1,5 +1,5 @@
-require '../lib/tweet.rb'
-require '../lib/json_data.rb'
+require_relative '../lib/tweet.rb'
+require_relative '../lib/json_data.rb'
 
 describe Tweet do
   let!(:all) do

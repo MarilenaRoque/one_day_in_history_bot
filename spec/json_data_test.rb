@@ -1,4 +1,4 @@
-require '../lib/json_data.rb'
+require_relative '../lib/json_data.rb'
 
 describe JsonData do
   let!(:all) do

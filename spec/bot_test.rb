@@ -1,4 +1,4 @@
-require '../lib/bot.rb'
+require_relative '../lib/bot.rb'
 
 describe TwitterBot do
   let!(:all) do
