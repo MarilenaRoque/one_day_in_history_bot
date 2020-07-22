@@ -20,9 +20,9 @@ To have a version on your local machine:
 - Clone this repository on your local machine, rename the template.env. Its name should be just ".env"
 - Replace the content of the .env using the keys provided by Twitter.
 - Exclusively for TSE review - You can find my private keys on that doc : [ Here](https://docs.google.com/document/d/17pg_2MWIBoOdBNdfe-NymuDKNujNBjGKR15mAMw7_sU/edit?usp=sharing)
-- Install the necessary gems listed on the Gemfile 
+- Run the command bellow on your root folder to install the necessary dependencies of the project
 
-> gem install <gem_name>
+> bundle install
 
 - Execute bin/main.rb on the project folder within your terminal
 
@@ -36,13 +36,13 @@ To have a version on your local machine:
 
       - After successfully install the Gem you can access the spec folder and run the following command to check the results.
 
-        > rspec spec/bot_test.rb
+        > rspec spec/spec_bot.rb
       To test the board class methods.
 
-        > rspec spec/json_data_test.rb
+        > rspec spec/spec_json_data.rb
       To test the json_data class methods.
 
-        > rspec spec/tweet_test.rb
+        > rspec spec/spec_tweet.rb
       To test the tweet class methods.
 
 
