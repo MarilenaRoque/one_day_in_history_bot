@@ -1,7 +1,7 @@
-require './lib/bot.rb'
+require_relative '../lib/bot.rb'
 require 'twitter'
-require './lib/json_data.rb'
-require './lib/tweet.rb'
+require_relative '../lib/json_data.rb'
+require_relative '../lib/tweet.rb'
 
 bot = TwitterBot.new
 
