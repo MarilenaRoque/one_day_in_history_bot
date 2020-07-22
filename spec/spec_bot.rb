@@ -9,7 +9,6 @@ describe TwitterBot do
       expect(@bot_test.class).to eq(TwitterBot)
     end
     it 'test if the authentication returns the right object' do
-      puts @bot_test.tweet('hey')
       expect(@bot_test.client.class).to eq(Twitter::REST::Client)
     end
     it 'test negative case' do
