@@ -1,1 +1,1 @@
-one_day_in_history_bo: ruby ./bin/main.rb
+one_day_in_history_bot: ruby ./bin/main.rb
