@@ -1,0 +1,13 @@
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/json-2.1.0/ext/json
+/home/acer/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/acer/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20200816-7444-3rd6am.rb extconf.rb
+creating Makefile
+
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/json-2.1.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/json-2.1.0/ext/json
+make "DESTDIR=" install

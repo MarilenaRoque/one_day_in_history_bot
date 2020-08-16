@@ -1,0 +1,5 @@
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/http-parser-1.2.1/ext
+/home/acer/.rvm/rubies/ruby-2.7.1/bin/ruby -I/home/acer/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0/rubygems -rrubygems /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/rake-13.0.1/exe/rake RUBYARCHDIR\=/home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/extensions/x86_64-linux/2.7.0/http-parser-1.2.1 RUBYLIBDIR\=/home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/extensions/x86_64-linux/2.7.0/http-parser-1.2.1
+mkdir -p x86_64-linux/http-parser
+gcc -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing -Wall -Wextra -O3 -fPIC   -o x86_64-linux/http-parser/http_parser.o -c ./http-parser/http_parser.c
+gcc -shared -o x86_64-linux/libhttp-parser-ext.so x86_64-linux/http-parser/http_parser.o -fexceptions 

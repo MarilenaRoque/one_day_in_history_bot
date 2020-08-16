@@ -1,0 +1,16 @@
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/home/acer/.rvm/rubies/ruby-2.7.1/bin/ruby -I /home/acer/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20200816-7444-1ou6abw.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/acer/my_projects/ruby/one_day_in_history_bot/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -m 0755 unf_ext.so ./.gem.20200816-7444-161i5gv
