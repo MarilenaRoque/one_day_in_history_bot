@@ -1,1 +1,1 @@
-one_day_in_history_bot: ruby ./bin/main.rb
+web: bundle exec ruby /bin/main.rb
