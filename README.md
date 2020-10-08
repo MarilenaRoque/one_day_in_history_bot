@@ -1,6 +1,6 @@
 # One_day_in_history (Twitter Bot)
 
-This is a twitter bot developed to share interesting historical facts that happened on the current day, but years ago.
+This is a twitter bot developed using pure Ruby, and connected to two different APIs, to share interesting historical facts that happened on the current day, but years ago.
 
 ​It is currently implemented on the Julius Account on Twitter: [ Click here to Check](https://twitter.com/OneDayinHistory)
 
